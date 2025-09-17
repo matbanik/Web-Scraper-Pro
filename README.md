@@ -59,7 +59,3 @@ The project is packaged into a standalone executable using `PyInstaller`. The `b
 
 The dependencies installed by the script are:
 pip install scrapy beautifulsoup4 reportlab browser-cookie3 pyinstaller lxml cssselect parsel w3lib tldextract typing-extensions trafilatura dateparser htmldate justext
-
-if __name__ == '__main__':
-    # This just prints the content. In a real scenario, you might write it to a file.
-    print(readme_content)
